@@ -1,2 +1,2 @@
-# zondbox-oe
-zondbox-oe
+# zondbox-manifest
+zondbox-manifest
