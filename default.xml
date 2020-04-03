@@ -8,7 +8,7 @@
   <default revision="thud"/>
 
   <!-- Common Yocto/OE vanilla layers -->
-  <project name="poky"                   remote="Yocto"  path="poky"/>
+  <project name="poky"                  remote="Yocto" path="poky"/>
   <project name="meta-openembedded"     remote="oe"     path="meta-openembedded"/>
 
   <!-- ST BSP layers -->
@@ -17,4 +17,7 @@
 
   <!-- Zondax layer (custom distro) -->
   <project name="meta-zondax"            remote="Zondax" path="meta-zondax" revision="dev" />
+
+  <!-- Zondax QEMU BSP layer -->
+  <project name="meta-zondax-qemu"       remote="Zondax" path="meta-zondax-qemu" revision="thud" />
 </manifest>
