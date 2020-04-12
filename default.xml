@@ -5,7 +5,7 @@
   <remote fetch="https://github.com/Zondax"             name="Zondax"/>
   <remote fetch="https://github.com/openembedded"       name="oe" />
 
-  <default revision="thud"/>
+  <default revision="zeus"/>
 
   <!-- Common Yocto/OE vanilla layers -->
   <project name="poky"                  remote="Yocto" path="poky"/>
@@ -13,11 +13,10 @@
 
   <!-- ST BSP layers -->
   <project name="meta-st-stm32mp"        remote="STM"    path="meta-st-stm32mp"/>
-  <project name="meta-st-stm32mp-addons" remote="STM"    path="meta-st-stm32mp-addons"/>
 
   <!-- Zondax layer (custom distro) -->
   <project name="meta-zondax"            remote="Zondax" path="meta-zondax" revision="dev" />
 
   <!-- Zondax QEMU BSP layer -->
-  <project name="meta-zondax-qemu"       remote="Zondax" path="meta-zondax-qemu" revision="thud" />
+  <project name="meta-zondax-qemu"       remote="Zondax" path="meta-zondax-qemu" />
 </manifest>
