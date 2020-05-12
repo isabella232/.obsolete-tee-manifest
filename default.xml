@@ -8,15 +8,19 @@
   <default revision="zeus"/>
 
   <!-- Common Yocto/OE vanilla layers -->
-  <project name="poky"                  remote="Yocto" path="poky"/>
-  <project name="meta-openembedded"     remote="oe"     path="meta-openembedded"/>
+  <project name="poky"                  remote="Yocto"   path="poky"/>
+  <project name="meta-openembedded"     remote="oe"      path="meta-openembedded"/>
 
   <!-- ST BSP layers -->
-  <project name="meta-st-stm32mp"        remote="STM"    path="meta-st-stm32mp"/>
+  <project name="meta-st-stm32mp"       remote="STM"     path="meta-st-stm32mp"/>
 
   <!-- Zondax layer (custom distro) -->
-  <project name="meta-zondax"            remote="Zondax" path="meta-zondax" revision="dev" />
+  <project name="meta-zondax"           remote="Zondax"  path="meta-zondax" revision="dev" />
 
   <!-- Zondax QEMU BSP layer -->
-  <project name="meta-zondax-qemu"       remote="Zondax" path="meta-zondax-qemu" />
+  <project name="meta-zondax-qemu"      remote="Zondax"  path="meta-zondax-qemu" />
+
+  <!-- TechNexion layers -->
+  <project name="meta-freescale"        remote="Yocto"   path="meta-freescale" />
+  <project name="meta-tn-imx-bsp"       remote="Zondax"  path="meta-tn-imx-bsp" />
 </manifest>
