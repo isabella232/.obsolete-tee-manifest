@@ -20,7 +20,4 @@
   <!-- Zondax QEMU BSP layer -->
   <project name="meta-zondax-qemu"      remote="Zondax"  path="meta-zondax-qemu" />
 
-  <!-- TechNexion layers -->
-  <project name="meta-freescale"        remote="Yocto"   path="meta-freescale" />
-  <project name="meta-tn-imx-bsp"       remote="Zondax"  path="meta-tn-imx-bsp" />
 </manifest>
