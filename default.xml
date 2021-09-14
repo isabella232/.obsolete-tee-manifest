@@ -20,4 +20,6 @@
   <!-- Zondax QEMU BSP layer -->
   <project name="meta-zondax-qemu"      remote="Zondax"  path="meta-zondax-qemu" />
 
+  <!-- Zondax STM32MP1 BSP layer -->
+  <project name="meta-zondax-stm32mp"   remote="Zondax"  path="meta-zondax-stm32mp" />
 </manifest>
