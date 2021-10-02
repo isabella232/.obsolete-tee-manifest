@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <remote fetch="git://git.yoctoproject.org"            name="Yocto"/>
+  <remote fetch="https://github.com/openembedded"       name="OE" />
   <remote fetch="https://github.com/STMicroelectronics" name="STM"/>
   <remote fetch="https://github.com/Zondax"             name="Zondax"/>
-  <remote fetch="https://github.com/openembedded"       name="oe" />
 
   <default revision="hardknott"/>
 
   <!-- Common Yocto/OE vanilla layers -->
   <project name="poky"                  remote="Yocto"   path="poky"/>
-  <project name="meta-openembedded"     remote="oe"      path="meta-openembedded"/>
+  <project name="meta-openembedded"     remote="OE"      path="meta-openembedded"/>
 
   <!-- ST BSP layers -->
   <project name="meta-st-stm32mp"       remote="STM"     path="meta-st-stm32mp"/>
-
-  <!-- Zondax layer (custom distro) -->
-  <project name="meta-zondax"           remote="Zondax"  path="meta-zondax" revision="dev" />
 
   <!-- Zondax QEMU BSP layer -->
   <project name="meta-zondax-qemu"      remote="Zondax"  path="meta-zondax-qemu" />
 
   <!-- Zondax STM32MP1 BSP layer -->
   <project name="meta-zondax-stm32mp"   remote="Zondax"  path="meta-zondax-stm32mp" />
+
+  <!-- Zondax layer (custom distro) -->
+  <project name="meta-zondax"           remote="Zondax"  path="meta-zondax" revision="dev" />
 </manifest>
