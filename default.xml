@@ -2,6 +2,7 @@
 <manifest>
   <remote fetch="git://git.yoctoproject.org"            name="Yocto" />
   <remote fetch="https://github.com/openembedded"       name="OE" />
+  <remote fetch="https://github.com/rust-embedded"      name="Rust" />
   <remote fetch="https://github.com/STMicroelectronics" name="STM" />
   <remote fetch="https://github.com/Freescale"          name="NXP" />
   <remote fetch="https://github.com/Zondax"             name="Zondax" />
@@ -11,6 +12,9 @@
   <!-- Common Yocto/OE vanilla layers -->
   <project name="poky"                  remote="Yocto"   path="poky" />
   <project name="meta-openembedded"     remote="OE"      path="meta-openembedded" />
+
+  <!-- Rust binary layer -->
+  <project name="meta-rust-bin"         remote="Rust"    path="meta-rust-bin" revision="master" />
 
   <!-- ST BSP layers -->
   <project name="meta-st-stm32mp"       remote="STM"     path="meta-st-stm32mp" />
