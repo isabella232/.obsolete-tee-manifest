@@ -31,5 +31,5 @@
   <project name="meta-zondax-imx8"      remote="Zondax"  path="meta-zondax-imx8" />
 
   <!-- Zondax layer (custom distro) -->
-  <project name="meta-zondax"           remote="Zondax"  path="meta-zondax" />
+  <project name="meta-zondax"           remote="Zondax"  path="meta-zondax" revision="rust-bin" />
 </manifest>
