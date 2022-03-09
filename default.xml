@@ -12,6 +12,9 @@
   <project name="poky"                  remote="Yocto"   path="poky" />
   <project name="meta-openembedded"     remote="OE"      path="meta-openembedded" />
 
+  <!-- Rust binary layer -->
+  <project name="meta-rust-bin"         remote="Zondax"  path="meta-rust-bin" revision="zondax" />
+
   <!-- ST BSP layers -->
   <project name="meta-st-stm32mp"       remote="STM"     path="meta-st-stm32mp" />
 
